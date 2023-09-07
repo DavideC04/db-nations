@@ -102,7 +102,7 @@ public class Main {
                 ps.setInt(1, scelta);
                 try(ResultSet rs = ps.executeQuery()){
                     // stampo il nome della tabella statistiche
-                    System.out.println("\nStatistiche più recenti: ");
+                    System.out.println("\nStatistiche più recenti ");
                     if(rs.next()){  // ad ogni iterazione chiamo next e testo il risultato ( che sia true o false)
                         // se trovo un elemento corrispondente all'id, stampo le informazioni
                         // ad ogni iterazione leggo i dati sulle statistiche
